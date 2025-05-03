@@ -70,7 +70,7 @@ local function CreateCoolDown(cooldown, start, duration)
   -- detect dynamic font size
   local size = parent:GetHeight() or 0
   size = size > 0 and size * .64 or 12
-  size = size > 14 and 14 or size
+  size = size > 16 and 18 or size
 
   -- set fonts
   cooldown.cooldowntext.text:SetFont(STANDARD_TEXT_FONT, size, "OUTLINE")
