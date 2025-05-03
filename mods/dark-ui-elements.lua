@@ -10,7 +10,7 @@ local module = ShaguTweaks:register({
   expansions = { ["vanilla"] = true, ["tbc"] = true },
   enabled = nil,
   config = {
-    ["darkmode.color"] = { r = .3, g = .3, b = .3, a = .9 }
+    ["darkmode.color"] = { r = .14, g = .14, b = .14, a = 1 }
   }
 })
 
